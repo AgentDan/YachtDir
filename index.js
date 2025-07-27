@@ -3,7 +3,7 @@ const cors = require("cors")
 const path = require('path')
 const connectDB = require('./config/db')
 const dotenv = require('dotenv').config()
-
+//HELLO
 const app = express()
 const PORT = process.env.PORT || 5000
 connectDB()
